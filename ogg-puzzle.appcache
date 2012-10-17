@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# Renew this hash every time to invalidate current cache
+# hash be4046f4743d321052bd666758edse02
+
+# Files to ask browsers to cache even when user hits reload
+CACHE:
+
+./index.html
+./video/BigBuckBunny_640x360.ogv
+./audio/final/drip.ogg
+./audio/final/twang2.ogg
+./audio/final/chimes.ogg
+./js/mouse.js
+./js/point2D.js
+./js/piece.js
+./js/holder.js
+./js/game.js
+./js/init.js
+
+NETWORK:
+*

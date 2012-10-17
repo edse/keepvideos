@@ -1,0 +1,47 @@
+KeepVideos
+==========
+
+Download YouTube Videos the easy way - Without plugins and extensions
+
+I'm using this game for learning the new HTML5 technologies.
+
+/* TEAM */
+  Passionate web developer: Emerson Estrella
+  Site: http://html5videopuzzle.appspot.com ou http://videopuzzle.pussum-cms.com
+  Twitter: @emersonestrella
+  Location: Sao Paulo, Brazil
+
+/* THANKS */
+  Everyone who makes the web better 
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Technologies: Video API, Audio API, Canvas, RequestAnimationFrame, Fullscreen, Application Cache (offline browsing) 
+
+
+
+                               -o/-
+                               +oo//-
+                              :ooo+//:
+                             -ooooo///-
+                             /oooooo//:
+                            :ooooooo+//-
+                           -+oooooooo///-
+           -://////////////+oooooooooo++////////////::
+            :+ooooooooooooooooooooooooooooooooooooo+:::-
+              -/+ooooooooooooooooooooooooooooooo+/::////:-
+                -:+oooooooooooooooooooooooooooo/::///////:-
+                  --/+ooooooooooooooooooooo+::://////:-
+                     -:+ooooooooooooooooo+:://////:--
+                       /ooooooooooooooooo+//////:-
+                      -ooooooooooooooooooo////-
+                      /ooooooooo+oooooooooo//:
+                     :ooooooo+/::/+oooooooo+//-
+                    -oooooo/::///////+oooooo///-
+                    /ooo+::://////:---:/+oooo//:
+                   -o+/::///////:-      -:/+o+//-
+                   :-:///////:-            -:/://
+                     -////:-                 --//:
+                       --                       -:
+
