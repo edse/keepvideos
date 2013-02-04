@@ -1,0 +1,631 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/><!-- versao: release_16_1 -->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+            		
+		
+			<meta name="robots" content="index, follow" />
+			<meta name="description" content="NET - Serviço de TV por Assinatura, Telefone e Internet Banda Larga a Cabo para sua casa e sua empresa. TV, Internet Banda Larga e Telefone na NET, tudo num só cabo e numa só conta." />
+			<meta name="keywords" content="net, netcombo, net combo, tv assinatura, tv por assinatura, internet cabo, tv cabo, tv a cabo, net fone, netfone telefone, telefone fixo, virtua, vírtua, net virtua, net vírtua, banda larga, internet, internet rápida, internet popular, net empresas, soluções para empresas" />
+		
+	
+            	<title>NET - O Mundo é dos NETS</title><script type="text/javascript" src="/netPortalWEB/framework/features/js/async.js"></script><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/styles/styles.css"><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/styles/jquery.autocomplete.css"><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/styles/jqModal.css"><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/jquery.js" type="text/javascript"></script><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/jquery.autocomplete.compress.js" type="text/javascript"></script><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/menu.js" type="text/javascript"></script><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/util.js" type="text/javascript"></script><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/mobile.js" type="text/javascript"></script><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/tracking.js" type="text/javascript"></script><script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/jqModal.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/theme/box_flash_generic/styles/box_flash_generic.css"><script src="/netPortalWEB/framework/skins/netPortalWeb/theme/box_flash_generic/scripts/AC_RunActiveContent.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/theme/box_portlet_original/styles/box_portlet_original.css"><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/theme/box_portlet_original_button_footer/styles/box_portlet_original_button_footer.css"><script src="/netPortalWEB/framework/skins/netPortalWeb/theme/box_portlet_original_button_footer/scripts/jcarousellite_1.0.1.pack.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/theme/layout_990/styles/layout_990.css"><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/theme/box_portlet_pay_per_view_footer/styles/box_portlet_pay_per_view_footer.css"><script src="/netPortalWEB/framework/skins/netPortalWeb/theme/box_portlet_pay_per_view_footer/scripts/jcarousellite_1.0.1.pack.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="/netPortalWEB/framework/skins/netPortalWeb/theme/box_portlet_menu/styles/box_portlet_menu.css"></head><body><script type="text/javascript">NET_TRACKING._init('UA-2698373-5','.netcombo.com.br');</script>
+<div class="general"><div class="site"><div class="content"><div class="header"><div class="escolha-cidade"></div><div class="azul"></div><div class="busca"></div><div class="login">
+
+
+
+
+
+
+
+<form id="formLoginHeader" action="https://www.netcombo.com.br:443/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_windowLabel=shell_login_portlet&amp;shell_login_portlet_actionOverride=%2Fbr%2Fcom%2Fnetserv%2Fnetnaweb%2Fweb%2Fpageflow%2Fhome%2Flogin%2FdoLogin" class="usuario-deslogado" method="post" onsubmit="return fctValidaCampos();">
+
+	
+		
+		<!--Pegar a URL do page de cadastro no book de cadastro e coloca na variavel pageURL -->
+		
+		<a class="crie-uma-conta" href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=cadastro_page" title="crie uma conta usuário NET"></a>
+	
+		
+		<a class="esqueci-senha" href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=lembrete_senha_page" title="esqueci a senha"></a>
+	
+	
+	
+
+	
+	
+		
+	
+	
+		
+	
+	
+		<div class="campos">
+			<ul>
+			<li>
+			<label>Login</label>
+			<input type="text" name="shell_login_portlet{actionForm.nome}" id="idNome" class="login" maxlength="30" style="background: rgb(255, 255, 255) url(/netPortalWEB/framework/skins/netPortalWeb/images/geral/login_watermark.gif) no-repeat scroll left center;" onblur="onBlurWatermark(this, '/netPortalWEB/framework/skins/netPortalWeb/images/geral/login_watermark.gif')" onfocus="onFocusWatermark(this, '/netPortalWEB/framework/skins/netPortalWeb/images/geral/login_watermark.gif')" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+// lookup by tagId to "real id"
+function lookupIdByTagId(id, tag)
+{
+   var idScope = lookupIdScope(tag,".");
+   return (idScope == "") ? id : idScope + id;
+}
+
+//Non-Legacy lookup method creating a fully qualified scope id
+function lookupIdScope(tag,sep)
+{
+   var val = "";
+   if (sep == null) sep = "";
+   while (tag != null && tag.getAttribute != null) {
+      try {
+         var attrVal = tag.getAttribute("netui:idScope");
+      } catch (e) { /* ignore, in IE6 calling on a table results in an exception */ }
+      if (attrVal != null)
+         val = attrVal + sep + val;
+      tag = tag.parentNode;
+   }
+   return val;
+}
+
+
+// map tagId to "real name"
+if (netui_tagIdNameMap == null)
+   var netui_tagIdNameMap = new Object();
+netui_tagIdNameMap.idNome="shell_login_portlet{actionForm.nome}"
+// lookup by tagId to "real name"
+function lookupNameByTagId(id, tag)
+{
+   var idScope = lookupIdScope(tag,"_");
+   if (idScope == "")
+      return netui_tagIdNameMap[id];
+   else
+      return netui_tagIdNameMap[idScope  + "__" + id];
+}
+
+-->
+</script>
+
+			</li>	
+			<li>
+			<label>Senha</label>
+			<input type="password" name="shell_login_portlet{actionForm.senha}" id="idSenha" class="senha" maxlength="12" style="background: rgb(255, 255, 255) url(/netPortalWEB/framework/skins/netPortalWeb/images/geral/senha_watermark.gif) no-repeat scroll left center;" onblur="onBlurWatermark(this, '/netPortalWEB/framework/skins/netPortalWeb/images/geral/senha_watermark.gif')" onfocus="onFocusWatermark(this, '/netPortalWEB/framework/skins/netPortalWeb/images/geral/senha_watermark.gif')" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+netui_tagIdNameMap.idSenha="shell_login_portlet{actionForm.senha}"
+-->
+</script>
+
+			<input type="image" class="botao-ok pngfix" src="/netPortalWEB/framework/skins/netPortalWeb/images/geral/botao_ok.png" />
+			</li>	
+			</ul>
+		</div>
+	
+</form>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+netui_tagIdNameMap.formLoginHeader="formLoginHeader"
+-->
+</script>
+
+
+<script type="text/javascript" language="JavaScript">
+	 function fctValidaCampos() {
+	 	 if(document.getElementById(lookupIdByTagId("idNome", this)).value == ""){
+	 	 	alert('Login e/ou Senha são obrigatórios.');
+		 	return false; 
+	 	 }
+	 	 if(document.getElementById(lookupIdByTagId("idSenha", this)).value == ""){
+	 	 	alert('Login e/ou Senha são obrigatórios.');
+		 	return false; 
+	 	 }
+		return true;
+	}
+</script></div></div><div class="main"><div class="menu"><ul><li class="left"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=net_combo_sobre_net_combo_home_page" title="NET Combo" style="">NET Combo<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="left"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=B2600171971304346211638" title="TV por Assinatura" style="">TV por Assinatura<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='left_side hold-sub'>
+<li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P4600171971304346260859" class="sub level-1" title="NET TV">NET TV<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P4600171971304346260859" class="first" title="NET TV">NET TV</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P4600871971304347040200" title="Digital HD Max">Digital HD Max</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P4600371971304346313999" title="Digital HD">Digital HD</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P4600271971304346282892" title="Digital">Digital</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=B3000180941306260337872" class="last" title="NOW">NOW</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P13200150401321963592295" title="Planos">Planos</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P10400146191316026192447" title="Compare">Compare</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=tv_programacao_programacao_home_page" class="sub level-1" title="Programação">Programação<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=tv_programacao_guiadeprogramacao_guiadeprogramacao_page" title="Guia de Programação">Guia de Programação</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=tv_programacao_grade_canais_book" title="Grade de Canais">Grade de Canais</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=tv_busca_avancada_programacao_page" title="Busca Avançada de Programação">Busca</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P17200156801346716540225" class="last" title="NET App">NET App</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P11000197551318275559065" title="Novos Canais">Novos Canais</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=bbb_home_page" class="sub level-1" title="Pay Per View">Pay Per View<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=bbb_book" class="first" title="Big Brother Brasil">Big Brother Brasil</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_futebol_futebol_book" title="Futebol">Futebol</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_pay_per_view_em_cartaz_page" title="Filmes">Filmes</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=programacao_payperview_pacote_adultos_adultos_book" title="Adultos">Adultos</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_payperviewpacote_lutas_lutas_page" title="Lutas">Lutas</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_payperviewpacote_games_games_page" title="Games">Games</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_pay_per_view_mundo_page" title="Mundo">Mundo</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_payperviewpacote_esportes_esportes_page" title="Esportes">Esportes</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_payperviewpacote_noticias_noticias__landing_page" title="Notícias">Notícias</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_payperview_como_comprar_como_comprar_book" class="last" title="Como Comprar">Como Comprar</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_adquira_mais_net_pontos_adicionais_pontos_adicionais_book" class="sub level-1" title="Pontos Opcionais">Pontos Opcionais<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=tv_perguntas_frequentes_net_tv_page" title="Perguntas Frequentes">Perguntas Frequentes</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="left"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=banda_larga_site_atual_home_page" title="Banda Larga" style="">Banda Larga<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='left_side hold-sub'>
+<li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=banda_larga_o_que_e_page" class="sub level-1" title="Sobre o NET Virtua">NET Vírtua<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=banda_larga_o_que_e_page" class="first" title="O que é">O que é</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=o_que_e_preciso_page" title="O que é preciso">O que é preciso</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=area_cobertura_page" title="Área de Cobertura">Área de Cobertura</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P11800126611319563368281" title="Roteadores">Roteadores</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P14000181041326126357432" class="last" title="Internet Segura">Internet Segura</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=_100_mega_site_atual_page" class="sub level-1" title="Planos">Velocidades<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=_100_mega_site_atual_page" class="first" title="100 Mega">100 Mega</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=_20_mega_site_atual_page" title="20 Mega">20 Mega</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=_10_mega_site_atual_page" title="10 Mega">10 Mega</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=_1_mega_site_atual_page" title="1 Mega">1 Mega</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=internet_popular_mega_atual_site_atual_page" class="last" title="Internet Popular">Internet Popular</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=tabela_comparativa_page" title="Tabela Comparativa">Compare</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=_consumo_franquia_site_atual_page" title="Consumo de Franquia">Consumo de Franquia</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P7200116451308235394089" title="Vantagens">Vantagens</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P7000196421308234246817" class="sub level-1" title="Wi-Fi">Wi-Fi<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P7000196421308234246817" class="first" title="WI-FI RESIDENCIAL">WI-FI RESIDENCIAL</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=B6200117631341928614084" class="last" title="NET VIRTUA WI-FI">NET VIRTUA WI-FI</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=B5000127331332527017386" class="sub level-1" title="Chave de Ativação">Antivírus + Backup<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=B5000127331332527017386" class="first" title="Planos">Planos</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=landing_chave_ativacao_page" class="last" title="Identifique-se">Registro para Download</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P14400116471330369919515" title="Medidor de Velocidade">Medidor de Velocidade</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=banda_larga_perguntas_frequentes_net_virtua_page" title="Perguntas Frequentes">Perguntas Frequentes</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="left"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P8800185731314990375805" title="Telefone" style="">Telefone<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='left_side hold-sub'>
+<li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P8800185731314990375805" title="NET Fone">NET Fone</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P9800185281315227681317" class="sub level-1" title="Planos">Planos<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P9800185281315227681317" class="first" title="Fale Fixo Ilimitado Brasil 21">Fale Fixo Ilimitado Brasil 21</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P13600181291324055282925" title="Fale Fixo Ilimitado Mundo 21">Fale Fixo Ilimitado Mundo 21</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P940066261315225877488" title="Fale Muito">Fale Muito</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P9200212141315011224526" title="Fale do Seu Jeito">Fale do Seu Jeito</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P10000112111315229542489" title="Fale Light">Fale Light</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P940016261315222627006" title="Fale Simples">Fale Simples</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P11600155101318631842669" class="last" title="Fale Fixo Ilimitado Claro 100">Fale Fixo Ilimitado Claro 100</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=B6600153081347563773529" class="sub level-1" title="Compare">Compare<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P1020123791315238790346" title="Vantagens">Vantagens</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P1020103791315238200837" title="Portabilidade">Portabilidade</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P1020113791315238481112" title="">Serviços Inteligentes</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=telefone_perguntas_frequentes_net_fone_page" title="Perguntas Frequentes">Perguntas Frequentes</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P16600130171340735357953" title="">9º Dígito</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="left"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P5600188801305310361420" title="Empresas" style="">Empresas<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='left_side hold-sub'>
+<li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P5600188801305310361420" title="NET Empresas">NET Empresas</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P19600157351355508822664" title="Banda Larga">Banda Larga</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P19600257351355509041935" title="Telefone">Telefone</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P19600357351355509273866" title="TV Por Assinatura">TV Por Assinatura</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P19600457351355509470831" title="Combo Empresas">Combo Empresas</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P14800127331332530787660" title="">Antivírus + Backup</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="left"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=assine_ja_assine_ja_site_atual_home_page" title="Assine Já" style="">Assine Já<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="right"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_home_page" title="Minha NET" style="">Minha NET<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='right_side hold-sub'>
+<li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=dados_assinatura_landing_page" class="sub level-1" title="Minha Assinatura">Minha Assinatura<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_minha_assinatura_dados_assinatura_book" class="first" title="Dados do Assinante">Meus Dados</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_cadastro_site_lembretesenha_lembretesenha_redirect_page" title="Lembrete de Login / Senha">ESQUECI LOGIN / SENHA</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_minha_assinatura_suporte_tecnico_book" title="Suporte Técnico">Suporte Técnico</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minhanet_minhaassinatura_historiconow_historico_now_book" title="Histórico NOW">Histórico NOW</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_minha_assinatura_bem_vindo_net_book" title="Bem Vindo à NET">Bem Vindo à NET</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=aviso_compra_book" title="Aviso de Compra">Aviso de Compra</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P8000184321314792889232" class="last" title="Entenda seu Aviso de Compras">Entenda seu Aviso de Compras</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_cadastro_site_crie_sua_conta_page" title="Cadastre-se">Cadastre-se</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_net_para_voce" title="Promoções, benefícios e diversão">NET Pra Você</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fatura_net_book" class="sub level-1" title="Fatura">Fatura<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fatura_net_book" class="first" title="Fatura NET">Fatura NET</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_minha_assinatura_cobranca_entenda_fatura_entenda_fatura_page" title="Entenda sua Fatura">Entenda sua Fatura</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fone_embratel_book" title="Fatura NET Fone via Embratel">Fatura NET Fone via Embratel</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=quitacao_book" title="Declaração de Quitação">Declaração de Quitação</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=formas_pagamento_book" title="Formas de Pagamento">Formas de Pagamento</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=promessa_pagamento_book" title="Fatura Vencida">Promessa de Pagamento</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fatura_endereco_cobranca_book" title="Endereço de Cobrança">Endereço de Cobrança</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P12600176311320692345091" title="Fatura Digital">Fatura Digital</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P15800114671337283253414" title="Renegocie Sua Fatura">Renegocie Sua Fatura</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P1280018651321644737172" class="last" title="">Nova Modalidade de Cobrança</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=loja_net_page" title="Loja dos NETs">Loja dos NETs</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P1520018531335210916552" title="Theatro NET Rio">Theatro NET Rio</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="right"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_bbb_book" title="Pay Per View" style="">Pay Per View<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='right_side hold-sub'>
+<li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_bbb_home_page" class="sub level-1" title="Big Brother Brasil">Big Brother Brasil<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_bbb_page" title="BBB">Assine</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_bbb_oferta_page" class="last" title="BBB">Oferta Especial</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fut_socio_premiere_page" class="sub level-1" title="Futebol">Futebol<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fut_socio_premiere_page" class="first" title="Sócio PFC">Premiere FC</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_futebol_interatividade_page" title="Interatividade">Interatividade</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_futebol_assine_page" class="last" title="Assine">Assine</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_pay_per_view_em_cartaz_page" class="sub level-1" title="Filmes">Filmes<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_pay_per_view_em_cartaz_book" class="first" title="Em Cartaz">Em Cartaz</a></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_ppv_pacote_disclaimer_adulto" class="sub level-1" title="Adultos">Adultos<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_ppv_pacote_disclaimer_adulto" class="first" title="Atenção Conteúdo Adulto">Atenção Conteúdo Adulto</a></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_payperviewpacote_lutas_lutas_page" title="Lutas">Lutas</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_payperviewpacote_games_games_page" title="Games">Games</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_pay_per_view_mundo_page" title="Mundo">Mundo</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_payperviewpacote_esportes_esportes_page" title="Esportes">Esportes</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pay_per_view_payperviewpacote_noticias_noticias__landing_page" title="Notícias">Notícias</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P17200256801346718314492" class="sub level-1" title="Como Comprar">Como Comprar<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P17200256801346718314492" class="first" title="Filmes pelo site">Filmes pelo site</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P17200356801346718924204" title="Lutas pelo site">Lutas pelo site</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P17200456801346719526244" class="last" title="Alterar Senha Pay Per View">Alterar Senha Pay Per View</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="right"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=now_catalogo_page" title="NOW" style="">NOW<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='right_side hold-sub'>
+<li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=now_catalogo_page" title="NOW">NOW</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="right"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=programacao_programacao_home_page" title="Programação" style="">Programação<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='right_side hold-sub'>
+<li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=programacao_guiadeprogramacao_guiadeprogramacao_page" title="Guia de Programação">Guia de Programação</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=programacao_gradedecanais_gradedecanais_home_page" class="sub level-1" title="Grade de Canais">Grade de Canais<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=busca_avancada_programacao_page" title="Busca Avançada de Programação">Busca</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_programacao_landing_page" class="sub level-1" title="Minha Programação">Minha Programação<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_programacao_hidden_book" class="first" title="Minha Programação">Minha Programação</a></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P16400171181340213218973" class="sub level-1" title="">Áudio e Legenda<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><div class="header-menu"><div class="center"></div><span class="right"></span></div><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P16400171181340213218973" class="first" title="Escolha no Controle">Escolha no Controle</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P16400271181340213433349" class="last" title="">Canais Disponíveis</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P3200157701300214154951" title="NET App">NET App</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=minha_net_revista_monet_revista_monet_book" class="sub level-1" title="Revista Monet">Revista Monet<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P4200113941304104979051" title="Abertura de Sinal">Abertura de Sinal</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li><li class="right"><span class="tab-left"></span><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_home_page" title="Atendimento" style="">Atendimento<!--[if IE 7]><!--></a><span class="tab-right"></span><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class='right_side hold-sub'>
+<li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_fale_conosco_fale_net_book" class="sub level-1" title="Fale Conosco">Fale Conosco<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=fale_conosco_telefones_endereco_page" title="Telefones e Endereços">Telefones e Endereços</a></li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_perguntas_frequentes_perguntas_frequentes_home_page" class="sub level-1" title="Perguntas Frequentes">Perguntas Frequentes<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_net_combo_page" title="NET Combo">NET Combo</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_net_tv_page" title="NET TV">NET TV</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_net_virtua_page" title="NET Virtua">NET Virtua</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_net_fone_page" title="NET Fone">NET Fone</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_net_lar_page" title="NET Lar">NET Lar</a></li><li><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_outros_assuntos_book" class="last" title="Outros Assuntos">Outros Assuntos</a><div class="footer-menu"><span class="left"></span><div class="center"></div><span class="right"></span></div></li></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class="fix-position"><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=ouvidoria_net" class="sub level-1" title="Ouvidoria">Ouvidoria<!--[if IE 7]><!-->
+</a><!--<![endif]-->
+<!--[if lte IE 6]><table><tr><td><![endif]-->
+<ul class="left_side"></ul><!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=atendimento_fale_conosco_denuncie_pirataria_denuncie_pirataria_page" title="Denuncie Pirataria">Denuncie Pirataria</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=pontos_venda_page" title="Pontos de Venda">Pontos de Venda</a></li><li class=""><a href="http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=P19400189181354274381510" title="Agente Autorizado">Agente Autorizado</a></li></ul>
+<!--[if lte IE 6]></td></tr></table></a><span class="tab-right"></span><![endif]-->
+</li></ul></div>
+
+
+
+
+
+<script type="text/javascript"> NET_TRACKING.setPage('net-combo/home'); </script>
+
+
+<div class="destaque-flash-principal">
+
+<span class="corner tl"></span>
+<span class="corner tr"></span>
+<span class="corner bl"></span>
+<span class="corner br"></span>
+
+<link href="/netPortalWEB/framework/skins/netPortalWeb/styles/banners/banners.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/banner.js" type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('body').addClass('home')
+	});
+</script>
+<script type="text/javascript">
+	document.write(unescape("%3Cscript src='" + document.location.protocol +
+	'//capture.pclicks.com/js?pcid=PC-000833-A' + "' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	(function() { var pc = new predicta.PClick(); pc.start(); })();
+</script>
+<a href="#" class="arrow-next">next</a>
+<a href="#" class="arrow-last">last</a>
+
+	<div class="body">
+	</div>
+
+<ul class="nav">
+</ul>
+
+</div>
+
+
+
+
+<ul class="destaque-boxes-primarios"><li class="destaque-flash">
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var DestProgramaTipo = "destaque_programacao"
+	var codigoCidade 	 = 1
+	var codigoArea   	 = 2  
+</script>
+<script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/jquery.jcarousel.min.js" type="text/javascript"></script>
+<script type='text/javascript'>
+    jQuery(function($){
+        $("#box-tweet .wrapper").tweet({
+            username: "NEToficial",
+            join_text: "auto",
+            avatar_size: 32,
+            count: 3,
+            auto_join_text_default: "we said,",
+            auto_join_text_ed: "we",
+            auto_join_text_ing: "we were",
+            auto_join_text_reply: "we replied to",
+            auto_join_text_url: "we were checking out",
+            loading_text: "loading tweets..."
+        }); 
+    });
+    
+</script> 
+<script src="/netPortalWEB/framework/skins/netPortalWeb/scripts/destaque.js" type="text/javascript" language="javascript"></script>
+<div class="destaque-programacao">
+</div>
+<div id="box-tweet">
+	<div class="box-left">
+		<a class="btn_follow_twitter" title="@NEToficial - Seguir" href="http://twitter.com/NEToficial">@NEToficial</a>
+		<a href="https://twitter.com/NEToficial" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Siga @NEToficial</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<div class="wrapper">
+	</div>
+</div>	
+
+</li><li><div class="box-portlet-original"><div id="home_programacao_home" class="box box-orientation-top"><div class="header"><span class="left-icon"></span><h3 class="icon">PROGRAMAÇÃO</h3><span class="right-icon icon-programacao"></span></div><div class="content"><div id="home_programacao_home_async" class="bea-portal-window-content-async" style="position: relative;">
+        &nbsp;
+        <br/>
+        &nbsp;
+    </div><div id="home_programacao_home_async_script"></div><div id="home_programacao_home_async_load" class="bea-portal-window-content-async-load" style="position: absolute; visibility: hidden;">
+        Carregando....
+    </div><div id="home_programacao_home_async_error" class="bea-portal-window-content-async-error" style="position: absolute; visibility: hidden;">ERROR...<table border="1"><tr><td>URL</td><td id="home_programacao_home_async_error_url"></td></tr><tr><td>Message</td><td id="home_programacao_home_async_error_message"></td></tr></table></div><div id="home_programacao_home_async_data" style="position: absolute; visibility: hidden;"><span id="home_programacao_home_async_postbackUrl">http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=netweb_portal_book_home_page</span></div><script type="text/javascript"><!--//--><![CDATA[<!--
+        bea.netuix.ajaxportlet.updateContents("home_programacao_home_async", "http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop/home_programacao_home?_nfpb=true&_portlet.contentOnly=true&_portlet.instanceLabel=home_programacao_home&_portlet.contentMode=FRAGMENT&_portlet.async=true&_portlet.lafUniqueId=netPortalWebDefinitionLabel&_portlet.themeName=box_portlet_original&_portlet.themeAltSkeleton=true&_portlet.themeAltSkin=true&_portlet.portalUrl=%2FnetPortalWEB%2Fappmanager%2Fportal%2Fdesktop&_portlet.portalId=portal%09desktop&_portlet.contentType=text%2Fhtml%3B+charset%3DISO-8859-1&_portlet.asyncMode=compat_9_2&_pageLabel=netweb_portal_book_home_page&_portlet.title=PROGRAMA%C7%C3O&_nfsp=true");
+    //-->]]></script></div><div class="footer"><span class="left"></span><span class="center"></span><span class="right"></span></div></div></div></li><li><div id="T256800262781352344822006_async" class="bea-portal-window-content-async" style="position: relative;">
+        &nbsp;
+        <br/>
+        &nbsp;
+    </div><div id="T256800262781352344822006_async_script"></div><div id="T256800262781352344822006_async_load" class="bea-portal-window-content-async-load" style="position: absolute; visibility: hidden;">
+        Carregando....
+    </div><div id="T256800262781352344822006_async_error" class="bea-portal-window-content-async-error" style="position: absolute; visibility: hidden;">ERROR...<table border="1"><tr><td>URL</td><td id="T256800262781352344822006_async_error_url"></td></tr><tr><td>Message</td><td id="T256800262781352344822006_async_error_message"></td></tr></table></div><div id="T256800262781352344822006_async_data" style="position: absolute; visibility: hidden;"><span id="T256800262781352344822006_async_postbackUrl">http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=netweb_portal_book_home_page</span></div><script type="text/javascript"><!--//--><![CDATA[<!--
+        bea.netuix.ajaxportlet.updateContents("T256800262781352344822006_async", "http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop/T256800262781352344822006?_nfpb=true&_portlet.contentOnly=true&_portlet.instanceLabel=T256800262781352344822006&_portlet.contentMode=FRAGMENT&_portlet.async=true&_portlet.lafUniqueId=netPortalWebDefinitionLabel&_portlet.portalUrl=%2FnetPortalWEB%2Fappmanager%2Fportal%2Fdesktop&_portlet.portalId=portal%09desktop&_portlet.contentType=text%2Fhtml%3B+charset%3DISO-8859-1&_portlet.asyncMode=compat_9_2&_pageLabel=netweb_portal_book_home_page&_portlet.title=NET+PRA+VOCE&_nfsp=true");
+    //-->]]></script><div class="box-portlet-original"><div id="home_link_rapido" class="box box-orientation-top"><div class="header"><span class="left-icon"></span><h3 class="icon">POSSO AJUDAR?</h3><span class="right-icon icon-posso-ajudar"></span></div><div class="content"><div id="home_link_rapido_async" class="bea-portal-window-content-async" style="position: relative;">
+        &nbsp;
+        <br/>
+        &nbsp;
+    </div><div id="home_link_rapido_async_script"></div><div id="home_link_rapido_async_load" class="bea-portal-window-content-async-load" style="position: absolute; visibility: hidden;">
+        Carregando....
+    </div><div id="home_link_rapido_async_error" class="bea-portal-window-content-async-error" style="position: absolute; visibility: hidden;">ERROR...<table border="1"><tr><td>URL</td><td id="home_link_rapido_async_error_url"></td></tr><tr><td>Message</td><td id="home_link_rapido_async_error_message"></td></tr></table></div><div id="home_link_rapido_async_data" style="position: absolute; visibility: hidden;"><span id="home_link_rapido_async_postbackUrl">http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop?_nfpb=true&amp;_pageLabel=netweb_portal_book_home_page</span></div><script type="text/javascript"><!--//--><![CDATA[<!--
+        bea.netuix.ajaxportlet.updateContents("home_link_rapido_async", "http://www.netcombo.com.br:80/netPortalWEB/appmanager/portal/desktop/home_link_rapido?_nfpb=true&_portlet.contentOnly=true&_portlet.instanceLabel=home_link_rapido&_portlet.contentMode=FRAGMENT&_portlet.async=true&_portlet.lafUniqueId=netPortalWebDefinitionLabel&_portlet.themeName=box_portlet_original&_portlet.themeAltSkeleton=true&_portlet.themeAltSkin=true&_portlet.portalUrl=%2FnetPortalWEB%2Fappmanager%2Fportal%2Fdesktop&_portlet.portalId=portal%09desktop&_portlet.contentType=text%2Fhtml%3B+charset%3DISO-8859-1&_portlet.asyncMode=compat_9_2&_pageLabel=netweb_portal_book_home_page&_portlet.title=POSSO+AJUDAR%3F&_nfsp=true");
+    //-->]]></script></div><div class="footer"><span class="left"></span><span class="center"></span><span class="right"></span></div></div></div></li></ul><ul class="destaque-boxes-secundarios"><li><div class="box-portlet-original"><div id="home_portlet_esquerda_cms" class="box box-orientation-top"><div class="header"><span class="left"></span><h3>NET VIRTUA 10 MEGA</h3><span class="right"></span></div><div class="content">
+
+
+
+
+
+
+
+
+<!-- Tag for Activity Group: NET_Home, Activity Name: NET_Home, Activity ID: 840919 -->
+<!-- Expected URL: http://www.netcombo.com.br/ -->
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: NET_Home
+URL of the webpage where the tag is expected to be placed: http://www.netcombo.com.br/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 05/18/2011
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="http://fls.doubleclick.net/activityi;src=3206503;type=net_h004;cat=net_h685;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://fls.doubleclick.net/activityi;src=3206503;type=net_h004;cat=net_h685;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+<p>
+<a href="http://www.netcombo.com.br/netPortalWEB/appmanager/portal/desktop?_nfpb=true&_pageLabel=assine_ja_assine_ja_site_atual_home_page&comboId=3703&checkout=1&mi=Home_portletesquerdo_virtua10mega_20120918">
+<img alt="" src="http://www.netcombo.com.br/static/images/home/portlets/virtua_10mega_3003.jpg" border="0"/>
+</a>
+</p>
+
+</div><div class="footer"><span class="left"></span><span class="center"></span><span class="right"></span></div></div></div></li><li>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var existeDiv = $("#escolhaCidade").length;
+	
+	if(existeDiv>0){
+		var valorCidade = $("#escolhaCidade").val();
+		if(valorCidade == "São Paulo" || valorCidade == "Belo Horizonte"|| valorCidade == "Porto Alegre" || valorCidade == "Campinas"|| valorCidade == "Rio de Janeiro" || valorCidade == "Brasília" || valorCidade == "Curitiba"|| valorCidade == "Santo André"|| valorCidade == "São Bernardo do Campo"|| valorCidade == "São Caetano do Sul"|| valorCidade == "Santos" || valorCidade == "Florianópolis" || valorCidade == "Ribeirão Preto" || valorCidade == "Guarulhos" || valorCidade == "Jundiaí" || valorCidade == "Manaus" || valorCidade == "Sorocaba" || valorCidade == "Maceió" || valorCidade == "Piracicaba"|| valorCidade == "João Pessoa"|| valorCidade == "Recife"|| valorCidade == "Jaboatão dos Guararapes"){
+			$("#portlet_cms_centro_esquerda_1").hide();
+			$("#home_destaque_payperview").hide();
+			$("#T119800921531312462485955").hide();
+		}
+		else
+		{
+			$("#portlet_now_slider").hide();
+		}
+	}
+	else
+	{
+		var valorCidadeLogado = $(".escolha-cidade .center label").html();
+		if(valorCidadeLogado == "São Paulo" || valorCidadeLogado == "Belo Horizonte"|| valorCidadeLogado == "Porto Alegre" || valorCidadeLogado == "Campinas"|| valorCidadeLogado == "Rio de Janeiro" || valorCidadeLogado == "Brasília" || valorCidadeLogado == "Curitiba"|| valorCidade == "Santo André"|| valorCidade == "São Bernardo do Campo"|| valorCidade == "São Caetano do Sul"|| valorCidade == "Santos" || valorCidade == "Florianópolis" || valorCidade == "Ribeirão Preto" || valorCidade == "Guarulhos" || valorCidade == "Jundiaí" || valorCidade == "Manaus" || valorCidade == "Sorocaba" || valorCidade == "Maceió" || valorCidade == "Piracicaba"|| valorCidade == "João Pessoa"|| valorCidade == "Campo Grande" || valorCidade == "Recife"|| valorCidade == "Jaboatão dos Guararapes")
+		{
+			$("#portlet_cms_centro_esquerda_1").hide();
+			$("#home_destaque_payperview").hide();
+			$("#T119800921531312462485955").hide();
+			$("#portlet_now_slider").show();
+		}
+    	else
+		{
+			$("#portlet_now_slider").hide();
+		}
+	}
+});
+</script>
+
+<div class="box-portlet-original-button-footer" id="portlet_now_slider">
+<div class="box box-orientation-top">
+<div class="header">
+<span class="left"></span>
+<h3>
+NOW
+</h3>
+<span class="right"></span>
+</div>
+
+<!--
+<div class="content">
+	<div id="slider_now" class="carousel">
+	<!-- inicio do portlet sem o tema 
+	<div class="box box-orientation-top" id="home_destaque_now">
+	<div class="content">
+	<div class="carousel" id="slider_home_destaque_payperview" style="visibility: visible;
+	overflow: hidden; position: relative; z-index: 2; left: 0px; width: 215px;">
+	<script type="text/javascript">
+	$(document).ready(function () {
+	$(".ver-todos").attr("href", 		"http://www.netcombo.com.br/netPortalWEB/appmanager/portal/desktop?_nfpb=true&_pageLabel=now_catalogo_page");
+	$.ajax({
+	type: "GET",
+	url: "/static/html/videoondemand/xml/net.xml",
+	dataType: "xml",
+	success: function (xml) {
+	$(xml).find("item").each(function () {
+	//var link = $(this).find("link").attr("href");
+	var titulo = $(this).find("alternate_title").text();
+	var sinopse = $(this).find("summary_medium").text();
+	var imagem = $(this).find("imagem_now").text();
+	var link = "www.netcombo.com.br/netPortalWEB/appmanager/portal/desktop?_nfpb=true&_pageLabel=minhanet_minhaassinatura_historiconow_historico_now_book&mi=NOW_Portlet_NOWHistorico_20121218";
+	var destacar = $(this).find("destaque_portlet_now").text();
+
+	if(destacar=="sim"){
+		$("<li style='overflow: hidden; float: left; width: 215px; height: 140px;'></li>")
+		.html("<a href='" + link + "'><img src='" + imagem + "' alt=''><dl><dt></dt><dd class='sinopse'>" + sinopse + "</dd><dd class='saiba-mais'>saiba mais</dd></dl></a>").appendTo("#container_portlet_now");
+		}
+	});
+
+	$('#slider_now').jCarouselLite({ btnNext: "#proximo_now", btnPrev: "#anterior_now", auto: 0, speed: 300, scroll: 1, visible: 1, 	circular: true });
+	$('#slider_now ul li a').hover(function () { $(this).addClass("over"); $(this).removeClass("out"); }, function () { $(this).removeClass("over"); $(this).addClass("out"); });
+
+	}
+	});
+	});
+	</script>
+	<ul style="margin: 0pt; padding: 0pt; position: relative; list-style-type: none;
+	z-index: 1; width: 1505px; left: -215px;" id="container_portlet_now">
+
+	</ul>
+	</div>
+	</div>
+	</div>
+
+	</div>
+</div>
+-->
+
+<div class="content">
+<a href="http://www.netcombo.com.br/netPortalWEB/appmanager/portal/desktop?_nfpb=true&_pageLabel=minhanet_minhaassinatura_historiconow_historico_now_book&mi=NOW_Portlet_NOWHistorico_20121218" target="_blank">
+	<img alt="" src="http://www.netcombo.com.br/static/images/home/netcombo/CENTROESQUERDAportlet_now.jpg"/>
+</a>
+</div>
+
+
+<!--
+<div class="footer-com-links">
+<span class="left"></span><span class="center"><a href="#" class="prev" id="anterior_now">
+</a><a href="#" class="ver-todos"></a><a href="#" class="next" id="proximo_now">
+</a></span><span class="right"></span>
+</div>
+-->
+
+
+
+<div class="footer-com-links" sizcache="30" sizset="46">
+	<span class="left"/>
+    <span class="center">
+    <a class="prev prev_T98801418061306231652269" href="#"/>
+    <a class="next next_T98801418061306231652269" href="#"/>
+<span class="right"/>
+</div>    
+
+
+</div>
+</div></li><li><div class="box-portlet-original"><div id="portlet_cms_centro_direita_1_2" class="box box-orientation-top"><div class="header"><span class="left"></span><h3>NET EMPRESAS</h3><span class="right"></span></div><div class="content">
+
+
+
+
+
+
+
+
+<p>
+<a href="http://www.netcombo.com.br/netPortalWEB/appmanager/portal/desktop?_nfpb=true&_pageLabel=P19600157351355508822664&mi=Empresas_Portlet_Empresas_20121218" target="blank">
+	<img alt="" src="http://www.netcombo.com.br/static/images/home/netcombo/portlet_empresas.jpg"/>
+</a>
+</p>
+</div><div class="footer"><span class="left"></span><span class="center"></span><span class="right"></span></div></div></div></li><li><div class="box-portlet-original"><div id="home_portlet_direita_cms" class="box box-orientation-top"><div class="header"><span class="left"></span><h3>NET PRA VOCÊ</h3><span class="right"></span></div><div class="content">
+
+
+
+
+
+
+
+
+<a href="http://www.netpravc.com.br/desenvolvimento/index.php" target="blank">
+	<img alt="" src="http://www.netcombo.com.br/static/images/home/netcombo/portlet_netpravoce.jpg"/>
+</a>
+
+<!-- PORTLET_CENTRO_ESQUERDA-->
+
+</div><div class="footer"><span class="left"></span><span class="center"></span><span class="right"></span></div></div></div></li></ul>
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+	.main .banner-rodape span{width:18px; height:60px; display:block; float:left;}
+
+	.main .banner-rodape .left{background:url("http://www.netcombo.com.br/static/images/home/banner_rodape/banner_rodape_left.gif") left top no-repeat;}
+
+	.main .banner-rodape .right{background:url("http://www.netcombo.com.br/static/images/home/banner_rodape/banner_rodape_right.gif") left top no-repeat;}
+
+	.main .banner-rodape .banner-content{width:766px; height:60px; display:block; float:left; background:url("http://www.netcombo.com.br/static/images/home/banner_rodape/banner_rodape_bg.jpg") left top repeat-x; padding-top: 15px; }
+
+	.main .banner-rodape .banner-content p{width:751px; height:18px; display:block; text-align:center; font-size:16px; margin:0px auto 0px;}
+
+	.main .banner-rodape .banner-content p a{font-size:16px; color:#FFFFFF; text-decoration: none;}
+
+	.main .banner-rodape .banner-content p a:hover{text-decoration:none;}
+	
+	.general .site .content .main .banner-rodape {margin: 25px 0 0 65px;}
+
+</style>
+
+
+
+<div class="banner-rodape">
+
+	<span class="left"></span>
+
+	<div class="banner-content"><p>
+
+		<a href="?_nfpb=true&_pageLabel=assine_ja_assine_ja_site_atual_home_page" title="Clique aqui e monte sua combinação.">
+
+		<strong>Clique aqui e monte sua combinação.</strong></a>
+
+	</p></div>
+
+	<span class="right"></span>
+
+</div></div>
+
+</div><div class="footer"></div></div></div></div><script>
+	    	NET_TRACKING._end();
+	    </script><script type="text/javascript" src="http://dnn506yrbagrg.cloudfront.net/pages/scripts/0010/4256.js"> </script>
+</body></html>

@@ -77,9 +77,9 @@ foreach($urls as $u){
       die();
 
       echo "\n\n----------------| getting files (".$youtube_id.") |--------|Video Title|------------------------------------------------\n";
-      echo "v1:\n".exec("wget --user-agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4\" -O /var/astolfo/web/uploads/storage/download/".$youtube_id."-1.mp4 \"".$video1."\"");
-      echo "v2:\n".exec("wget --user-agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4\" -O /var/astolfo/web/uploads/storage/download/".$youtube_id."-2.mp4 \"".$video2."\"");
-      echo "img:\n".exec("wget --user-agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4\" -O /var/astolfo/web/uploads/storage/download/".$youtube_id.".jpg \"".$image."\"");
+      echo "v1:\n".exec("wget --user-agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4\" -O /Users/emersonestrella/Documents/Aptana Studio\ 3\ Workspace/keepvideos/".$youtube_id."-1.mp4 \"".$video1."\"");
+      echo "v2:\n".exec("wget --user-agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4\" -O /Users/emersonestrella/Documents/Aptana Studio\ 3\ Workspace/keepvideos/".$youtube_id."-2.mp4 \"".$video2."\"");
+      echo "img:\n".exec("wget --user-agent=\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4\" -O /Users/emersonestrella/Documents/Aptana Studio\ 3\ Workspace/keepvideos/".$youtube_id.".jpg \"".$image."\"");
     }
   }
 }

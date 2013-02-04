@@ -24,3 +24,7 @@ body {
 #pause, #bgm, #sfx, #bgmoff, #sfxoff, #fullscreen, #exitfullscreen, #autosnap, #autosnapoff {
   display: none;
 } 
+
+td {
+  padding: 2px;
+}
