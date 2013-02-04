@@ -45,4 +45,4 @@ foreach ($streams as $stream) {
 }
 
 if($html)
-  echo "<table>".$html."</table>";
+  echo "<table style='width:100%'>".$html."</table>";
