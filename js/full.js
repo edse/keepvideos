@@ -24,9 +24,8 @@ function getVideo(youtube_video_id){
   var id = "b4VsluhWVh8";
   if(youtube_video_id!="")
     id = youtube_video_id;
-
   $.ajax({
-    url: "http://www.youtube.com/get_video_info?video_id="+id,
+    url: "http://www.youtube.com/get_video_info?video_id="+id+"&asv=2",
     dataType: "text"
   }).done(function(data) {
     var results = [];

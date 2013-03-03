@@ -1,4 +1,12 @@
 <?php
+
+$url = 'http://r1---sn-xhcg5uxa-bg0e.c.youtube.com/videoplayback?id=6b1ebc90bd96851c&algorithm=throttle-factor&burst=40&upn=rNQtIDpRvAU&factor=1.25&sparams=algorithm%2Cburst%2Ccp%2Cfactor%2Cid%2Cip%2Cipbits%2Citag%2Csource%2Cupn%2Cexpire&cp=U0hVRVBPVF9NUENONV9ISVhJOmxiT3lsRWJFVUh1&ms=au&itag=34&key=yt1&fexp=923413%2C916602%2C929115%2C906440%2C914024%2C916625%2C901459%2C920704%2C912806%2C902000%2C922403%2C922405%2C929901%2C913605%2C925710%2C929114%2C920201%2C913302%2C919009%2C911116%2C926403%2C910221%2C901451%2C919114&source=youtube&ipbits=8&mt=1360024457&expire=1360046886&newshard=yes&mv=m&sver=3&ip=189.121.85.247&quality=medium,type=video/mp4;+codecs="avc1.42001E,+mp4a.40.2"&sig=5A56699550054647D5C69C346018AA0E2764915E.53E6A5673FC7DA2340988DD02EE93C730F22FD84&fallback_host=tc.v15.cache2.c.youtube.com&itag=18';
+die($url);
+
+
+die('http://r1---sn-xhcg5uxa-bg0e.c.youtube.com/videoplayback?expire=1360046886&fexp='.urlencode('927900,910019,916624,921039,920704,912806,902000,922403,922405,929901,913605,925710,929114,920201,913302,930101,919009,911116,926403,910221,901451,919114').
+'&id=6b1ebc90bd96851c&sver=3&ip=189.121.85.247&sparams='.urlencode('cp,id,ip,ipbits,itag,ratebypass,source,upn,expire').'&source=youtube&ipbits=8&upn=3r8zcOEEaeY&cp=U0hVRVBPVF9NUENONV9ISVhJOkpnV2NGTU1INHVD&newshard=yes&key=yt1&ms=au&ratebypass=yes&mv=m'.
+'&itag=43&mt=1360023617&itag=43&sig=92A3E383182EB422998D8C5FF6E6EAD28C1BA30E.137FC2A88E4D57CBF15A90C404AA7D9C62FEEC3D&fallback_host=tc.v7.cache3.c.youtube.com&type='.urlencode('video/webm;+codecs="vp8.0,+vorbis",quality=medium'));
       
       $id = "Ujwod-vqyqA";
       

@@ -33,8 +33,28 @@ foreach ($streams as $stream) {
   } else {
     if ($stype == $type && ($real_stream['quality'] == 'hd1080' || $real_stream['quality'] == 'hd720' || $real_stream['quality'] == 'large' || $real_stream['quality'] == 'medium' || $real_stream['quality'] == 'small')) {
       if ($size == $real_stream['quality']) {
-        header('Content-type: ' . $stype);
+        $ext = "";
+        if($stype=="video/webm")
+          $ext = "webm";
+        elseif($stype=="video/x-flv")
+          $ext = "flv";
+        elseif($stype=="video/mp4")
+          $ext = "mp4";
+        elseif($stype=="video/3gpp")
+          $ext = "3gp";
+        //header("Content-Description: File Transfer");
+        //header("Content-Disposition: attachment; filename=keepvideos.$codec");
+        //header("Content-Transfer-Encoding: binary");
+        //'Content-type: '.$stype."\n\r"."
+        //header("Content-Disposition: attachment; filename=keepvideos.$codec\n\r"."Content-Description: File Transfer\n\r");
+        header("Content-Disposition: attachment; filename=keepvideos.$ext\n\r");
+        //header('Content-disposition: attachment; filename=keepvideos.'.$ext."\n\r".'Content-type: '.$stype);
+        //header('Content-type: '.$stype);
+        //readfile('movie.mpg');
+
         //header('Transfer-encoding: chunked');
+        ob_flush();
+        flush();
         @readfile($real_stream['url'] . '&signature=' . $real_stream['sig']);
         ob_flush();
         flush();
