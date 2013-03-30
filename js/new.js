@@ -5,20 +5,24 @@
 $(document).ready(function() {
   var url = getParameter("url");
   var passthru = getParameter("passthru");
-  if(url)
-    $('#url').val()
-  if(passthru)
+  console.log('url: '+url);
+  console.log('passthru: '+passthru);
+  if(url!=null){
+    $('#url').val(url);
     checkUrl();
+  }
   else
     $('#download-btn').focus();
-});
+    
+  $('#again').click(function() {
+    $('#hero2').fadeOut('fast');
+    $('#hero1').fadeIn('slow');
+  });
+  
+  $('#form').submit(function() {
+    checkUrl()
+  });
 
-$('#again').click(function() {
-  $('#hero2').fadeOut('fast');$('#hero1').fadeIn('slow');
-});
-
-$('#form').submit(function() {
-  checkUrl();
 });
 
 function checkUrl(){
@@ -32,8 +36,8 @@ function checkUrl(){
   }
   else{
     alert('Invalid URL!');
-    $('#url').val("");
     $('#url').focus();
+    $('#url').select();
   }
   return false;
 }
@@ -211,14 +215,6 @@ function explode (delimiter, string, limit) {
   return s;
 }
 
-function getParameter(sParam){
-  var sPageURL = window.location.search.substring(1);
-  var sURLVariables = sPageURL.split('&');
-  for (var i = 0; i < sURLVariables.length; i++){
-    var sParameterName = sURLVariables[i].split('=');
-    if(sParameterName[0] == sParam) {
-      return sParameterName[1];
-    }
-  }
-  return false;
-}​
+function getParameter(name) {
+  return decodeURI((RegExp(name + '=' + '(.+?)(&amp;|$)').exec(location.search)||[,null])[1]);
+}
