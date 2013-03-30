@@ -2,11 +2,26 @@
 // http://keepvideos.appspot.com
 // +   original by: Emerson Estrella
 
+$(document).ready(function() {
+  var url = getParameter("url");
+  var passthru = getParameter("passthru");
+  if(url)
+    $('#url').val()
+  if(passthru)
+    checkUrl();
+  else
+    $('#download-btn').focus();
+});
+
 $('#again').click(function() {
   $('#hero2').fadeOut('fast');$('#hero1').fadeIn('slow');
 });
 
-$('#form').submit(function() {
+$('#form').submit(
+  checkUrl();
+});
+
+function checkUrl(){
   var url = $('#url').val();
   var regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/;
   var match = url.match(regExp);
@@ -21,7 +36,7 @@ $('#form').submit(function() {
     $('#url').focus();
   }
   return false;
-});
+}
 
 function getVideo(youtube_video_id){
   var results = [];
@@ -195,3 +210,15 @@ function explode (delimiter, string, limit) {
   s.splice( s.length + limit );
   return s;
 }
+
+function getParameter(sParam){
+  var sPageURL = window.location.search.substring(1);
+  var sURLVariables = sPageURL.split('&');
+  for (var i = 0; i < sURLVariables.length; i++){
+    var sParameterName = sURLVariables[i].split('=');
+    if(sParameterName[0] == sParam) {
+      return sParameterName[1];
+    }
+  }
+  return false;
+}​
