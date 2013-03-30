@@ -7,7 +7,7 @@ $(document).ready(function() {
   var passthru = getParameter("passthru");
   console.log('url: '+url);
   console.log('passthru: '+passthru);
-  if(url!=null){
+  if(url!="null"){
     $('#url').val(url);
     checkUrl();
   }
