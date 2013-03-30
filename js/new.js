@@ -17,7 +17,7 @@ $('#again').click(function() {
   $('#hero2').fadeOut('fast');$('#hero1').fadeIn('slow');
 });
 
-$('#form').submit(
+$('#form').submit(function() {
   checkUrl();
 });
 
