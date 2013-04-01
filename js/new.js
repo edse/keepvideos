@@ -3,12 +3,10 @@
 // +   original by: Emerson Estrella
 
 $(document).ready(function() {
-  
   $('#again').click(function() {
     $('#hero2').fadeOut('fast');
     $('#hero1').fadeIn('slow');
   });
-  
   var url = decodeURIComponent(getParameter("url"));
   console.log('url: '+decodeURIComponent(url));
   if(url!="null"){
@@ -17,7 +15,6 @@ $(document).ready(function() {
   }
   else
     $('#url').focus();
-
 });
 
 function checkUrl(){
@@ -55,13 +52,11 @@ function getVideo(youtube_video_id){
       real_stream['url'] += '&signature=' + real_stream['sig'];
       results.push(real_stream);
     }
-
     //print results
     var html = '';
-    html += '<h4 class="alert-heading" style="margin-top: 25px;">All video files found for your request</h4>';
-    html += '<a id="again" style="margin-top: 25px;" class="btn btn-small btn-danger" href="#main" onclick="$(\'#hero2\').fadeOut(\'fast\');$(\'#hero1\').fadeIn(\'slow\');"><i class="icon-repeat icon-white"></i> Make Another Request</a>';
+    html += '<h4 class="alert-heading" style="margin-top: 25px;">Results...</h4>';
+    html += '<a id="again" style="margin-top: 25px;" class="btn btn-small btn-danger" href="/"><i class="icon-repeat icon-white"></i> Make Another Request</a>';
     html += '<table class="table table-striped musica" style="background: rgba(255,255,255,0.7); margin-top:25px;"><thead><tr><th>Quality</th><th>Format/Codecs</th><th style="text-align: right;"></th></tr></thead><tbody>';
-
     if(results.length > 0){
       $.each(results, function(index, value) {
         html += '\n\r<tr>';
@@ -78,21 +73,17 @@ function getVideo(youtube_video_id){
         html += '<td>N/A</td>';
         html += '</tr>\n\r';
     }
-    html += '</tbody></table><a style="margin-top: 10px; margin-bottom: 25px;" class="btn btn-small btn-danger" href="#main" onclick="$(\'#hero2\').fadeOut(\'fast\');$(\'#hero1\').fadeIn(\'slow\');"><i class="icon-repeat icon-white"></i> Make Another Request</a>';
+    html += '</tbody></table><a style="margin-top: 10px; margin-bottom: 25px;" class="btn btn-small btn-danger" href="/"><i class="icon-repeat icon-white"></i> Make Another Request</a>';
     $('#vid').html(html);
     $('#vid').fadeIn('slow');
-
     $('#loading').hide();
     $('#hero1').hide();
     $('#hero2').fadeIn('slow');
     $('#download-btn').show();
-
   });
-
 }
 
-
-function parse_str (str, array) {
+function parse_str(str, array) {
   var strArr = String(str).replace(/^&/, '').replace(/&$/, '').split('&'),
     sal = strArr.length,
     i, j, ct, p, lastObj, obj, lastIter, undef, chr, tmp, key, value,
@@ -100,11 +91,9 @@ function parse_str (str, array) {
     fixStr = function (str) {
       return decodeURIComponent(str.replace(/\+/g, '%20'));
     };
-
   if (!array) {
     array = this.window;
   }
-
   for (i = 0; i < sal; i++) {
     tmp = strArr[i].split('=');
     key = fixStr(tmp[0]);
@@ -184,28 +173,16 @@ function explode (delimiter, string, limit) {
     return { 0: '' };
   }
   if ( delimiter === true ) delimiter = '1';
-  
-  // Here we go...
   delimiter += '';
   string += '';
-  
   var s = string.split( delimiter );
-  
-
   if ( typeof limit === 'undefined' ) return s;
-  
-  // Support for limit
   if ( limit === 0 ) limit = 1;
-  
-  // Positive limit
   if ( limit > 0 ){
     if ( limit >= s.length ) return s;
     return s.slice( 0, limit - 1 ).concat( [ s.slice( limit - 1 ).join( delimiter ) ] );
   }
-
-  // Negative limit
   if ( -limit >= s.length ) return [];
-  
   s.splice( s.length + limit );
   return s;
 }
