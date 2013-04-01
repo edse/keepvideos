@@ -3,25 +3,20 @@
 // +   original by: Emerson Estrella
 
 $(document).ready(function() {
-  var url = getParameter("url");
-  var passthru = getParameter("passthru");
-  console.log('url: '+url);
-  console.log('passthru: '+passthru);
-  if(url!="null"){
-    $('#url').val(url);
-    checkUrl();
-  }
-  else
-    $('#download-btn').focus();
-    
+  
   $('#again').click(function() {
     $('#hero2').fadeOut('fast');
     $('#hero1').fadeIn('slow');
   });
   
-  $('#form').submit(function() {
-    checkUrl()
-  });
+  var url = decodeURIComponent(getParameter("url"));
+  console.log('url: '+decodeURIComponent(url));
+  if(url!="null"){
+    $('#url').val(url);
+    checkUrl();
+  }
+  else
+    $('#url').focus();
 
 });
 
